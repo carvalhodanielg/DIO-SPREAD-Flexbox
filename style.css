@@ -42,6 +42,12 @@ header .list-items{
     color: #FFF;
 }
 
+div img{
+    display: block;
+    width: 100%;
+}
+
+
 header .menu{
     justify-content: space-between;
     align-items: center;
@@ -79,3 +85,37 @@ header .menu{
     margin-bottom: 10px;
 }
 
+
+#quem-somos{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;;
+}
+
+
+#quem-somos h2{
+    font-size: 32px;
+    color: #122A57;
+    display: flex;
+}
+
+#quem-somos h2::before{
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122A57;
+    position: relative;
+
+}
+
+#quem-somos p{
+    margin-bottom: 10px;
+    width: 90%;
+    text-justify: auto;
+}
+
+#quem-somos img{
+    min-width: 520px;
+}
